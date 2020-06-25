@@ -224,6 +224,8 @@ GameObject:
   - component: {fileID: 1320817170}
   - component: {fileID: 1320817169}
   - component: {fileID: 1320817168}
+  - component: {fileID: 1320817172}
+  - component: {fileID: 1320817171}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -274,6 +276,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1320817171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320817167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b121dd7c5b2a66e479f6431bf73bd576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tapObject: {fileID: 8278534501387028215, guid: 940d796bb0250cc4dacac710828a43c5,
+    type: 3}
+--- !u!114 &1320817172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320817167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb898793194e03f4bb10dba03ec2cb70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DestroyOnRemoval: 1
 --- !u!1 &1711729818
 GameObject:
   m_ObjectHideFlags: 0

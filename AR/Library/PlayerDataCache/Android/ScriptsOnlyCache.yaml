@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - TapToPlaceObject
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARFoundation.dll:
@@ -9,8 +11,15 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPlane
     - UnityEngine.XR.ARFoundation.ARPlaneManager
     - UnityEngine.XR.ARFoundation.ARPlaneMeshVisualizer
+    - UnityEngine.XR.ARFoundation.ARReferencePoint
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -33,9 +42,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 33
       Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -44,22 +63,28 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11576}
     - Class: 114
+      Script: {instanceID: 11666}
+    - Class: 114
       Script: {instanceID: 11768}
     - Class: 114
       Script: {instanceID: 11802}
     - Class: 114
       Script: {instanceID: 12060}
     - Class: 114
-      Script: {instanceID: 12594}
+      Script: {instanceID: 12596}
     - Class: 114
-      Script: {instanceID: 12790}
+      Script: {instanceID: 12792}
     - Class: 114
-      Script: {instanceID: 12936}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 13106}
+      Script: {instanceID: 13108}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 13244}
+    - Class: 114
+      Script: {instanceID: 14512}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -360,6 +385,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 05051aab5644a66bdf7c1cf6bb567f68
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TurtleAnimControll
   - hash:
       serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
@@ -672,6 +703,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: fd79cffe52af8b8446c129f66eed5c8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TapToPlaceObject
   platform: 13
   scenePathNames:
   - Assets/AR.unity
